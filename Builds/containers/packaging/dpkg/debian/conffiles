@@ -1,0 +1,3 @@
+opt/ripple/etc/dcf.cfg
+opt/ripple/etc/validators.txt
+etc/logrotate.d/dcf

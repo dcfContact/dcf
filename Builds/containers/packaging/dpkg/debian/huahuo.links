@@ -1,0 +1,3 @@
+opt/ripple/etc/dcf.cfg etc/opt/ripple/dcf.cfg
+opt/ripple/etc/validators.txt etc/opt/ripple/validators.txt
+opt/ripple/bin/dcf usr/local/bin/dcf

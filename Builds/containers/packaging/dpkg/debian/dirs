@@ -1,0 +1,3 @@
+/var/log/dcf/
+/var/lib/dcf/
+/etc/systemd/system/dcf.service.d/

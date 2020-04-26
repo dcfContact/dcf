@@ -1,0 +1,7 @@
+opt/ripple/bin/dcf
+opt/ripple/bin/validator-keys
+opt/ripple/bin/update-dcf.sh
+opt/ripple/etc/dcf.cfg
+opt/ripple/etc/validators.txt
+opt/ripple/etc/update-dcf-cron
+etc/logrotate.d/dcf

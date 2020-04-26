@@ -1,0 +1,15 @@
+/var/log/dcf/*.log {
+  daily
+  minsize 200M
+  rotate 7
+  nocreate
+  missingok
+  notifempty
+  compress
+  compresscmd /usr/bin/nice
+  compressoptions -n19 ionice -c3 gzip
+  compressext .gz
+  postrotate
+    /opt/ripple/bin/dcf --conf /opt/ripple/etc/dcf.cfg logrotate
+  endscript
+}

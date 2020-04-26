@@ -1,0 +1,15 @@
+[Unit]
+Description=Ripple Daemon
+
+[Service]
+Type=simple
+ExecStart=/opt/ripple/bin/dcf --net --silent --conf /etc/opt/ripple/dcf.cfg
+# Default KillSignal can be used if/when dcf handles SIGTERM
+KillSignal=SIGINT
+Restart=no
+User=dcf
+Group=dcf
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target
